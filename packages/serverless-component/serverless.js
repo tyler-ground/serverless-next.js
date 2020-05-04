@@ -184,7 +184,8 @@ class NextjsComponent extends Component {
           }
         },
         memory: getLambdaMemory("apiLambda"),
-        timeout: getLambdaTimeout("apiLambda")
+        timeout: getLambdaTimeout("apiLambda"),
+        runtime: "nodejs12.x"
       };
       const apiLambdaName = getLambdaName("apiLambda");
       if (apiLambdaName) apiEdgeLambdaInput.name = apiLambdaName;
@@ -226,7 +227,8 @@ class NextjsComponent extends Component {
         }
       },
       memory: getLambdaMemory("defaultLambda"),
-      timeout: getLambdaTimeout("defaultLambda")
+      timeout: getLambdaTimeout("defaultLambda"),
+      runtime: "nodejs12.x"
     };
     const defaultLambdaName = getLambdaName("defaultLambda");
     if (defaultLambdaName) defaultEdgeLambdaInput.name = defaultLambdaName;
