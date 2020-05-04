@@ -1,5 +1,5 @@
 {
-  "name": "serverless-nextjs-monorepo",
+  "name": "tyler-serverless-nextjs-monorepo",
   "version": "1.8.1",
   "description": "Deploy your serverless next applications using the serverless framework",
   "main": "index.js",
@@ -86,6 +86,9 @@
     ]
   },
   "dependencies": {
+    "@types/fs-extra": "^8.1.0",
+    "@types/klaw": "^3.0.1",
+    "@types/mime-types": "^2.1.0",
     "opencollective-postinstall": "^2.0.2"
   },
   "collective": {
