@@ -1,0 +1,37 @@
+{
+  "name": "serverless-next.js",
+  "version": "1.11.1-alpha.1",
+  "description": "Serverless nextjs powered by Serverless Components",
+  "main": "serverless.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielcondemarin/serverless-next.js.git",
+    "directory": "packages/serverless-component"
+  },
+  "keywords": [
+    "serverless",
+    "component",
+    "nextjs"
+  ],
+  "author": "Daniel Conde Marin <danielconde9@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielcondemarin/serverless-next.js/issues"
+  },
+  "homepage": "https://github.com/danielcondemarin/serverless-next.js#readme",
+  "engines": {
+    "node": ">=10.11.0"
+  },
+  "dependencies": {
+    "@serverless/aws-cloudfront": "^5.0.0",
+    "@serverless/aws-lambda": "^3.0.0",
+    "@serverless/aws-s3": "^4.2.0",
+    "@serverless/core": "^1.0.0",
+    "@serverless/domain": "^6.1.0",
+    "@sls-next/lambda-at-edge": "^1.1.1-alpha.0",
+    "@sls-next/s3-static-assets": "^1.0.1-alpha.0",
+    "fs-extra": "^8.1.0",
+    "next-aws-cloudfront": "^1.1.0"
+  },
+  "gitHead": "ee789975d5d5351456bf00b2524122e184a64100"
+}
